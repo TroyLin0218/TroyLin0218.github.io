@@ -1,16 +1,8 @@
-jekyll-theme-solid
+我的个人博客
 =================
 
-A simple and clean jekyll theme without javascript.
+欢迎你的来访！
 
-Online Demo: <https://mazhuang.org/jekyll-theme-solid>
+## 来源
 
-## Screenshots
-
-* Home page
-
-  ![home page](./images/screenshots/home.png)
-
-* Post page
-
-  ![post page](./images/screenshots/posts.png)
+<https://mazhuang.org/jekyll-theme-solid>
