@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: https://mazhuang.org/jekyll-theme-solid
+url: https://troylin0218.github.io/
 date_format: "ordinal"
-title: jekyll-theme-solid
-author: Zhuang Ma 
+title: TroyLin
+author: TroyLin 
 
 # ---------------- #
 #   RSS / Email    #
