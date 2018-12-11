@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hello, jekyll-theme-solid
+title: Hello, MyBlog！
 categories: jekyll
 description: say hello
-keywords: jekyll, theme
+keywords: Blog
 ---
 
-A simple and clean jekyll theme without javascript.
+Hello World!
