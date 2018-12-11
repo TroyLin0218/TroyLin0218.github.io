@@ -1,28 +1,30 @@
 ---
 layout: page
-title: Zhuang Ma
-description: Zhuang Ma的个人简介。
-keywords: Zhuang Ma, 马壮
+title: Tian Lin
+description: Tian Lin的个人简介。
+keywords: 个人简介
 permalink: /about/
 ---
 
-**Software Engineer at [Sogou, Inc.](http://www.sogou.com)**
+**Java Development Intern**
 
-Beijing City, China \| Computer Software
+Qinhuangdao City, Hebei province, China \| Computer Software
   
-*Education:* Wuhan Institute of Technology
+*Education:* Yanshan University
+
 
 scholar, CS/IT
 
-*Contact:* `print '%s@%s' % ('ChumpMa', 'gmail.com')  #via Python`
+*Contact:* troylin0218@gmail.com
 
-*Social:*  [github](http://github.com/mzlogin) \| [linkedin](http://www.linkedin.com/in/mazhuang) \| [weibo](http://weibo.com/mzlogin) \| [douban](http://www.douban.com/people/freedim/) \| [blog](http://mazhuang.org)
-    
-```c++
-#include <iostream>
-int main()
-{
-	std::cout << "Hello, friends!" << std::endl;
-	return 0;
+ 
+```java
+public class Helloworld {
+
+	public static void main(String args[]) {
+
+	System.out.print ("Hello World！");
+	} 
 }
 ```
+
