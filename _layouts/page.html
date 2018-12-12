@@ -1,15 +1,16 @@
 {% include header.html %}
-<div class="description">
-    <div style="background-image: url({{ site.url }}/images/avatar.png); width: 128px; height: 128px; background-size: cover; border-radius: 50%; margin: 0 auto;">
-    <div class="name">Troy Lin</div>
-    <div class="desc">Software Development Intern. Blogging about life and learning.</div>
-</div>
+
 <div class="container">
     {% include navigation.html %}
+        <div class="description">
+            <div style="background-image: url({{ site.url }}/images/avatar.png); width: 128px; height: 128px; background-size: cover; border-radius: 50%; margin: 0 auto;">
+            <div class="name">Troy Lin</div>
+            <div class="desc">Software Development Intern. Blogging about life and learning.</div>
+        </div>
     <div class="main">
         <h2> {{ page.title }} </h2>
         {{ content }}
-        {% include share.html %}
+        <!-- {% include share.html %} -->
         {% include comments.html %}
     </div>
 </div>
