@@ -7,5 +7,5 @@ permalink: /links/
 ---
 
 <ul>
-<li><a href="http://mazhuang.org/">码志</a></li>
+<li><a href="http://mazhuang.org/" target="_blank">码志</a></li>
 </ul>
