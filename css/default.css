@@ -216,20 +216,20 @@ td {
 tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
-.description {
+div.main.description {
   text-align: center;
   margin-top: 4em;
 }
 
-.description img{
+div.main.description img{
   border-radius: 50%;
   max-width: 128px;
 }
 
-.description .name {
+div.main.description .name {
   font-weight: bold;
 }
 
-.description .desc {
+div.main.description .desc {
   color: #65737E;
 }
