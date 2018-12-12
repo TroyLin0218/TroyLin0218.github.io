@@ -219,7 +219,8 @@ tr:nth-child(2n) {
 
 .description {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .description img{
