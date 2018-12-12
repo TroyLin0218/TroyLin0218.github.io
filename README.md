@@ -3,6 +3,4 @@
 
 欢迎你的来访！
 
-## 来源
-
-<https://mazhuang.org/jekyll-theme-solid>
+ 博客参考[模板](https://mazhuang.org/jekyll-theme-solid)
