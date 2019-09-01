@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tian Lin
+title: Tian Lin(田林)
 description: Tian Lin的个人简介。
 keywords: 个人简介
 permalink: /about/
@@ -8,23 +8,9 @@ permalink: /about/
 
 **Java Development Intern**
 
-Qinhuangdao City, Hebei province, China \| Computer Software
+NanJing City, JiangSu province, China \| Computer Software
   
-*Education:* Yanshan University
-
-
-scholar, CS/IT
+Worked at *FiberHome* currently
 
 *Contact:* troylin0218@gmail.com
-
- 
-```java
-public class Helloworld {
-
-	public static void main(String args[]) {
-
-	System.out.print ("Hello World！");
-	} 
-}
-```
 
