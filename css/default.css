@@ -1,6 +1,7 @@
 ﻿/* modified from http://www.yinwang.org/main.css */
 body {
-  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  /*font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   background-color: white;
   font-size: 100%;
 }
