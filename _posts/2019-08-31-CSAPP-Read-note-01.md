@@ -6,7 +6,7 @@ description: 读书笔记
 keywords: 读书笔记,CS:APP
 ---
 
-##计算机系统漫游：从一段C代码说起
+## 计算机系统漫游：从一段C代码说起
 
 ```c
 #include <stdio.h>

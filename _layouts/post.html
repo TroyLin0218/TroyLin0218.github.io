@@ -10,6 +10,17 @@
         <h2> {{ page.title }} </h2>
         {{ content }}
         {% if page.categories %}
+        <p>
+            <br>
+            <br>
+        </p>
+        <hr>
+        <blockquote>
+            <p>如果有任何问题请联系我:<code class="highlighter-rouge">troylin0218@gmail.com</code></p>
+        </blockquote>
+        <p>
+            <br>
+        </p>
         <div class="post_footer">
           <p>Published on {{ page.date | date: "%b %d, %Y" }} in categories 
           {% for cat in page.categories %}
