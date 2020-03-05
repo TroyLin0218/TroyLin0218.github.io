@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Tian Lin(田林)
-description: Tian Lin的个人简介。
+description: 个人简介
 keywords: 个人简介
 permalink: /about/
 ---
 
-**Java Development Intern**
+**Java Development**
 
 NanJing City, JiangSu province, China \| Computer Software
   
