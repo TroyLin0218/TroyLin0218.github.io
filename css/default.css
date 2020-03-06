@@ -230,7 +230,10 @@ tr:nth-child(2n) {
 }
 
 .description .name {
-  font-weight: bold;
+  font-size: x-large;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .description .desc {
