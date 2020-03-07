@@ -1,3 +1,11 @@
+<!-- 回到顶部按钮 -->
+<div class="top">
+    <span title="回到顶部" id="topArrow" onclick="toTop()">
+        <img src="{{ site.url }}/images/top.gif">
+    </span>
+</div>
+
+
 <center>
     <p style="font-size:0.6em;">Powered by <a href="http://jekyllrb.com">Jekyll</a> 
         and Theme based on <a href="http://github.com/mzlogin/jekyll-theme-solid" target="_blank">solid</a>
@@ -20,4 +28,17 @@
     </div>
 </center>
     </body>
+    <!-- 页面滚动事件 -->
+    <script type="text/javascript">
+    
+    </script>
+    <!-- 回到顶部js实现 -->
+    <script type="text/javascript">
+        function toTop() {
+           // Document.scrollTop = Document.body.scrollTop =0;
+           scrollTo(0,0);
+        }
+    </script>
+
+
 </html>
