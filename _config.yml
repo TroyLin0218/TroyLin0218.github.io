@@ -20,7 +20,8 @@ markdown: kramdown
 kramdown:
     input: GFM
 paginate: 9
-permalink: /:year/:month/:day/:title/
+# permalink: /:year/:month/:day/:title/
+permalink: /:title.html
 plugins:
     - jekyll-paginate
     - jekyll-sitemap

@@ -2,7 +2,16 @@
 <div class="container">
     {% include navigation.html %}
     <div class="main">
-        <h2> {{ page.title }} </h2>
+        <h2 class="essayTitle"> {{ page.title }} </h2>
+        <div class="essayInfo">
+            <div style="float: left;width: 3%;height: auto;"><img src="{{ site.url }}/images/date.png" style="margin-left: 18px;margin-bottom: 20px;" ></div>
+            <span style="margin-left: 0;">&nbsp; {{ page.date | date: "%Y-%m-%d"}} </span>
+            <div style="float: left;width: 3%;height: auto;"><img src="{{ site.url }}/images/tag.png" style="margin-left: 120px;margin-bottom: 20px;" ></div>
+            {% for cat in page.categories %}
+            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}" style="margin-left: 40px;">{{ cat }}</a>&nbsp;
+            {% endfor %}
+        </div>
+            
         {{ content }}
         {% if page.categories %}
         <p>
