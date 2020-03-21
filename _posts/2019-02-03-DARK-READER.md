@@ -3,7 +3,7 @@ layout: post
 title: 【推荐】让所有网页强制夜间模式的浏览器插件
 categories: Recommend
 description: 浏览器插件推荐
-keywords: 浏览器插件,夜间模式,Dark Reader
+keywords: [浏览器插件,夜间模式,Dark Reader]
 ---
 
 前言，如果你还在使用非Chrome、FireFox、Safari浏览器请及时退出，本文不适合你！  

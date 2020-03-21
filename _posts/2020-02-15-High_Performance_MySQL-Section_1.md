@@ -4,7 +4,7 @@ layout: post
 title: 【读书笔记】《高性能MySQL》第一章:MySQL架构和历史
 categories: Reading-notes
 description: 读书笔记
-keywords: 读书笔记,高性能MySQL
+keywords: [读书笔记,高性能MySQL]
 
 ---
 

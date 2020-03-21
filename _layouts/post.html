@@ -4,11 +4,14 @@
     <div class="main">
         <h2 class="essayTitle"> {{ page.title }} </h2>
         <div class="essayInfo">
-            <div style="float: left;width: 3%;height: auto;"><img src="{{ site.url }}/images/date.png" style="margin-left: 18px;margin-bottom: 20px;" ></div>
-            <span style="margin-left: 0;">&nbsp; {{ page.date | date: "%Y-%m-%d"}} </span>
-            <div style="float: left;width: 3%;height: auto;"><img src="{{ site.url }}/images/tag.png" style="margin-left: 120px;margin-bottom: 20px;" ></div>
-            {% for cat in page.categories %}
-            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}" style="margin-left: 40px;">{{ cat }}</a>&nbsp;
+            <!-- <div style="float: left;width: 3%;height: auto;"><img src="{{ site.url }}/images/date.png" style="margin-left: 18px;margin-bottom: 20px;" ></div> -->
+            <span style="padding:0 20px 0 5px"><i>&nbsp; {{ page.date | date: "%B %d, %Y" }} </i></span>
+            <!-- <div style="float: left;width: 3%;height: auto;"><img src="{{ site.url }}/images/tag.png" style="margin-left: 120px;margin-bottom: 20px;" ></div> -->
+            <!-- {% for cat in page.categories %}
+            <span><a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}" target="_blank">#{{ cat }}</a></span>
+            {% endfor %} -->
+            {% for keyword in page.keywords %}
+            <span class="tag-essay"> {{ keyword }} </span>&nbsp;&nbsp;
             {% endfor %}
         </div>
             
@@ -18,20 +21,30 @@
             <br>
             <br>
         </p>
+        <!-- <div class="post_footer">
+            <p>Published in Keywords:
+            {% for keyword in page.keywords %}
+            <span class="tag-essay"> {{ keyword }} </span>&nbsp;&nbsp;
+            {% endfor %}
+            </p>
+        </div> -->
+        <div class="post_footer">
+            <p>Published  in Categories:  
+            {% for cat in page.categories %}
+            <span class="categ-essay"><a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a></span>&nbsp;&nbsp;
+            {% endfor %}
+            <p>
+          </div>
         <hr>
         <blockquote>
-            <p>如果有任何问题请联系我:<code class="highlighter-rouge">troylin0218@gmail.com</code></p>
+            <p>
+                如果有任何问题请联系我:<code class="highlighter-rouge">troylin0218@gmail.com</code><br/>
+                采用 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名4.0</a> 国际许可协议进行许可<br/>
+                本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名<br/>
+                原文连接: <a rel="license" href="{{ site.url }}{{ page.url }}" target="_blank">{{ site.url }}{{ page.url }}</a> 
+            </p>
         </blockquote>
-        <p>
-            <br>
-        </p>
-        <div class="post_footer">
-          <p>Published on {{ page.date | date: "%b %d, %Y" }} in categories 
-          {% for cat in page.categories %}
-          <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
-          {% endfor %}
-          <p>
-        </div>
+
         {% endif %}
         <ul class="prev_next">
             {% if page.previous.url %}

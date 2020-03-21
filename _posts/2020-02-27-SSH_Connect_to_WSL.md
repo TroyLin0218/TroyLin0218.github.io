@@ -4,7 +4,7 @@ layout: post
 title: 【问题与处理】SSH工具链接Win10子系统WSL
 categories: Solve_Problems
 description: 问题和处理
-keywords: SSH工具,WSL,Ubuntu
+keywords: [SSH工具,WSL,Ubuntu]
 
 ---
 

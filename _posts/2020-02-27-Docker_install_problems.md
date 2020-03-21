@@ -4,7 +4,7 @@ layout: post
 title: 【问题与处理】WSL中安装Docker遇到问题
 categories: Solve_Problems
 description: 问题和处理
-keywords: Docker,WSL
+keywords: [Docker,WSL]
 
 ---
 

@@ -4,7 +4,7 @@ layout: post
 title: 【读书笔记】《高性能MySQL》第五章:创建高性能索引
 categories: Reading-notes
 description: 读书笔记
-keywords: 读书笔记,高性能MySQL
+keywords: [读书笔记,高性能MySQL]
 
 ---
 

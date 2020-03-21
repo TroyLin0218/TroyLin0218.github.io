@@ -3,7 +3,7 @@ layout: post
 title: 【读书笔记】《深入理解计算机系统》读书笔记(一)
 categories: Reading-notes
 description: 读书笔记
-keywords: 读书笔记,CS:APP
+keywords: [读书笔记,CSAPP]
 ---
 
 ## 计算机系统漫游：从一段C代码说起

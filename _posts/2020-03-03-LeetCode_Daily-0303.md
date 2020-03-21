@@ -4,7 +4,7 @@ layout: post
 title: 【每日一题】3月3日:合并排序的数组
 categories: LeetCode_Daily
 description: LeetCode
-keywords: LeetCode,刷题
+keywords: [LeetCode,刷题]
 
 ---
 
