@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 【读书笔记】《高性能MySQL》第五章:创建高性能索引
+title: 【读书笔记】《高性能MySQL》第五章:创建高性能索引(1)
 categories: Reading-notes
 description: 读书笔记
 keywords: [读书笔记,高性能MySQL]
@@ -100,3 +100,7 @@ MySQL支持的索引:
 * 在不考虑排序和分组时将选择性最高的放在最前列通常时比较好的做法,不过仅局限在where查询.
 
 * 但性能不只是依赖于索引列的选择性,也和查询条件的具体值有关,也就是值的分布.
+  
+
+
+ ---> [创建高性能索引(2)]({{ site.url }}/High_Performance_MySQL-Section_5-2.html)
