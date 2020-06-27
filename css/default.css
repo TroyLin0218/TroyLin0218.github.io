@@ -1,9 +1,13 @@
 ﻿/* modified from http://www.yinwang.org/main.css */
 body {
-  /*font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
+  /*font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   background-color: white;
   font-size: 100%;
+  */
+  background-image: url(https://desktop.github.com//images/star-bg.svg);
+  background-repeat: repeat;
+  background-position: center 0, 0 0, 0 0;
 }
 
 div.main {
@@ -13,7 +17,7 @@ div.main {
     line-height: 150%;
     border-radius: 4px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 H1, H2, H3, H4 {
@@ -145,8 +149,8 @@ div.nav {
     height: 1.5em;
     line-height: 150%;
     font-size: 1em;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    background-color: #fff;
+    box-shadow: 0 10px 60px rgba(0,0,0,0.2);
+    /*background-color: #fff;*/
 }
 
 div.nav_rss {
