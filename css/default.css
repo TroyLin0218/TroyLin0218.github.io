@@ -17,8 +17,8 @@ div.main {
     padding: 2%;
     width: 45%;
     line-height: 150%;
-    border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    /*border-radius: 4px;*/
+    /*box-shadow: 0 10px 30px rgba(0,0,0,0.2);*/
     /*background-color: #fff;*/
 }
 
@@ -164,6 +164,13 @@ div.nav_rss {
 div.nav_nav {
   width: 80%;
   float: left;
+}
+
+div.nav_hr {
+  margin:auto;
+  width:45%;
+  height:1px;
+  background-color:#ebeaea;
 }
 
 img {
